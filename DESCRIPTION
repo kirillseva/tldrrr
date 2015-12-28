@@ -14,7 +14,7 @@ LazyData: true
 Imports:
     httr,
     crayon,
-    digest
+    memoise
 Suggests:
     testthat,
     devtools

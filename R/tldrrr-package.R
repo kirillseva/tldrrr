@@ -3,6 +3,6 @@
 #' Learn how to use command line tools from your R console.
 #'
 #' @name tldrrr
-#' @import crayon digest
+#' @import crayon memoise
 #' @docType package
 NULL
