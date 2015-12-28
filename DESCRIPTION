@@ -1,0 +1,21 @@
+Package: tldrrr
+Type: Package
+Title: tldrrr (http://github.com/kirillseva/tldrrr)
+Description: R client for https://github.com/tldr-pages/tldr/
+Version: 0.0.0.9000
+Author: Kirill Sevastyanenko <kirillseva@gmail.com>
+Maintainer: Kirill Sevastyanenko <kirillseva@gmail.com>
+Authors@R: c(person("Kirill", "Sevastyanenko",
+    email = "kirillseva@gmail.com", role = c("aut", "cre")))
+Depends:
+    R (>= 3.0.1)
+License: MIT
+LazyData: true
+Imports:
+    httr,
+    crayon,
+    digest
+Suggests:
+    testthat,
+    devtools
+Roxygen: list(wrap = FALSE)
