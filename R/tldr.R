@@ -11,7 +11,7 @@ tldr <- function(command, platform = get_platform()) {
 }
 
 make_url <- function(platform, command) {
-  BASE_URL <- "https://raw.github.com/tldr-pages/tldr/master/pages/"
+  BASE_URL <- "https://raw.github.com/tldr-pages/tldr/main/pages/"
   paste0(BASE_URL, platform, "/", command, ".md")
 }
 
